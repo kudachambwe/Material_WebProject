@@ -16,7 +16,7 @@
 
     <!-- Dropdown Structure -->
   <ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!">Sign in</a></li>
+    <li><a href="sign_in.html">Sign in</a></li>
     <li><a href="sign_up.html">Sign up</a></li>
     <!-- <li class="divider"></li> --->
   </ul>
@@ -30,8 +30,10 @@
       <ul class="right hide-on-med-and-down">
         <li><a href="search_res.html"><i class="material-icons">search</i></a></li>
         <li><a href="#2"><i class="material-icons">view_module</i></a></li>
-        <!-- <li><a href="#3"><i class="material-icons">refresh</i></a></li> -->
+        <li><a href="my_page.html"><i class="material-icons">account_circle</i></a></li>
+        <!--
         <li><a class="dropdown-button" href="#" data-activates="dropdown1">Login or Register<i class="material-icons right">arrow_drop_down</i></a></li>
+        -->
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -44,52 +46,65 @@
 
 
   <div class="section">
+    <center>
+      <br><br>
+      <h5 class="white-text light"> Create your own account</h5>
+    <div class="container white"
+    <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+    <div class="row">
+      <form class="col s12">
+        <div class="row">
+          <div class="input-field col s6">
+            <i class="material-icons prefix deep-orange-text">account_circle</i>
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="material-icons prefix deep-orange-text">account_circle</i>
+            <input id="last_name" type="text" class="validate">
+            <label for="last_name">Last Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix deep-orange-text">face</i>
+            <input id="user" type="text" class="validate">
+            <label for="user">Username</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix deep-orange-text">email</i>
+            <input id="email" type="email" class="validate">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <i class="material-icons prefix deep-orange-text">lock</i>
+            <input id="password" type="password" class="validate">
+            <label for="password">Password</label>
+          </div>
+        </div>
+        <center>
+          <div class='row'>
+            <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect deep-orange'>Submit</button>
+          </div>
+        </center>
+      </form>
+      </div>
 
-  <div class="row">
-    <form class="col s12">
-      <div class="row">
-        <div class="input-field col s6">
-          <i class="material-icons prefix white-text">account_circle</i>
-          <input id="first_name" type="text" class="validate">
-          <label for="first_name">First Name</label>
-        </div>
-        <div class="input-field col s6">
-          <i class="material-icons prefix white-text">account_circle</i>
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <i class="material-icons prefix white-text">face</i>
-          <input id="user" type="text" class="validate">
-          <label for="user">Username</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <i class="material-icons prefix white-text">lock</i>
-          <input id="password" type="password" class="validate">
-          <label for="password">Password</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s12">
-          <i class="material-icons prefix white-text">email</i>
-          <input id="email" type="email" class="validate">
-          <label for="email">Email</label>
-        </div>
-      </div>
-    </form>
+    </div>
   </div>
-
-  </div>
+</center>
+<br><br>
+</div>
 
 
   <footer class="page-footer deep-orange">
 
     <div class="footer-copyright">
-      <div class="container black-text ">
+      <div class="container white-text ">
          © 2014 Copyright Text
       <a class="orange-text text-lighten-3 right" </a>
       </div>

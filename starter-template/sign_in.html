@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Starter Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+
+
+<body class="blue-grey darken-4">
+
+    <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="sign_in.html">Sign in</a></li>
+    <li><a href="sign_up.html">Sign up</a></li>
+    <!-- <li class="divider"></li> --->
+  </ul>
+
+  <nav class="deep-orange lighten" role="navigation">
+
+    <div class="nav-wrapper container">
+
+      <a href="index.html" class="large brand-logo"><i class="material-icons">menu</i></a>
+
+      <ul class="right hide-on-med-and-down">
+        <li><a href="search_res.html"><i class="material-icons">search</i></a></li>
+        <li><a href="#2"><i class="material-icons">view_module</i></a></li>
+        <li><a href="my_page.html"><i class="material-icons">account_circle</i></a></li>
+        <!--
+        <li><a class="dropdown-button" href="#" data-activates="dropdown1">Login or Register<i class="material-icons right">arrow_drop_down</i></a></li>
+        -->
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#"> Login or Register</a></li>
+        <li><a href="#"><i class="material-icons">more_vert</i></a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+
+  <div class="section ">
+      <center>
+        <br><br>
+        <h5 class="white-text light"> Please login into your account</h5>
+          <div class="container">
+            <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+
+              <form class="col s12" method="post">
+                <div class='row'>
+                  <div class='col s12'>
+                  </div>
+                </div>
+
+                <div class='row'>
+                  <div class='input-field col s12'>
+                    <i class="material-icons prefix deep-orange-text">email</i>
+                    <input class='validate' type='email' name='email' id='email' />
+                    <label for='email'>Enter your email</label>
+                  </div>
+                </div>
+
+                <div class='row'>
+                  <div class='input-field col s12'>
+                    <i class="material-icons prefix deep-orange-text">lock</i>
+                    <input class='validate' type='password' name='password' id='password' />
+                    <label for='password'>Enter your password</label>
+                  </div>
+                  <label style='float: right;'>
+    								<a class='pink-text' href='#!'><b>Forgot Password?</b></a>
+    							</label>
+                </div>
+
+                <br />
+                <center>
+                  <div class='row'>
+                    <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect deep-orange'>Login</button>
+                  </div>
+                </center>
+              </form>
+            </div>
+          </div>
+        </center>
+        <br><br>
+
+        <div class="section"></div>
+        <div class="section"></div>
+
+      </div>
+
+
+      <footer class="page-footer deep-orange">
+
+        <div class="footer-copyright">
+          <div class="container white-text ">
+             © 2014 Copyright Text
+          <a class="orange-text text-lighten-3 right" </a>
+          </div>
+        </div>
+      </footer>
+
+
+      <!--  Scripts-->
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script src="js/init.js"></script>
+
+      </body>
+    </html>
