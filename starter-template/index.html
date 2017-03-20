@@ -10,6 +10,14 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
+  <!---  Script for getting the filminfo
+  <script type="text/javascript">
+  function dos12(series) {
+    window.open('http://www.omdbapi.com/?t='+series+'&type=series', 'G1window');
+  }
+  </script>
+  End script -->
+
 </head>
 
 
@@ -62,20 +70,11 @@
 
           <div class="input-field white">
 
-            <form onsubmit="dos12(this.series.value); return false;">
+            <!-- <form onsubmit="dos12(this.series.value); return false;"> -->
                 <label class="label-icon deep-orange-text" for="search"> <i class="material-icons deep-orange-text">search</i> </label>
                   <input id="search" type="search" name="series" size="100" placeholder=" What are you binging....?"/>
-            </form>
+            <!-- </form> -->
           </div>
-
-
-          <!---  Script for getting the filminfo -->
-          <script type="text/javascript">
-          function dos12(series) {
-            window.open('http://www.omdbapi.com/?t='+series+'&type=series', 'G1window');
-          }
-          </script>
-          <!---  End script -->
 
       </div>
 
@@ -121,9 +120,9 @@
     </div>
     <br><br>
 
-    <div class="section">
 
-    </div>
+    <section id="finfo">
+    </section>
 
   </div>
 
