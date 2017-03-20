@@ -3,7 +3,9 @@
 
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
-    $('.carousel').carousel();
+    $('.carousel').carousel({
+      padding:300
+    });
     $('#modal1').modal();
     //$('#modal1').modal('close');
 

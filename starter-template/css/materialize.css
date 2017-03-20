@@ -2311,6 +2311,15 @@ img {
   border: 0;
 }
 
+logo-img {
+  border: 0;
+  max-height: 80px;
+  max-width: 40%;
+  overflow: visible;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 img.resize{
     width:540px; /* you can use % */
     height: auto;
@@ -4077,6 +4086,7 @@ nav .brand-logo {
   padding: 0;
   white-space: nowrap;
 }
+
 
 nav .brand-logo.center {
   left: 50%;
