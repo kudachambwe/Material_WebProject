@@ -7,7 +7,8 @@
       padding:300
     });
     $('#modal1').modal();
-    //$('#modal1').modal('close');
+
+    
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space

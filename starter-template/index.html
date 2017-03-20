@@ -50,25 +50,32 @@
 
       <a class="brand-logo "> <img src="content/springe_white_text.png" height=auto style="max-width:450px"/> </a>
       <!-- <h1 class="header center white-text light"> Springe. </h1> -->
-
       <div class="row center">
-        <h5 class="header col s12 light white-text"> Your next binge thing! </h5>
+        <h5 class="header col s12 light thin white-text">Your next binge thing! </h5>
       </div>
+
 
 
     <br><br>
 
       <div class="row center">
 
-          <div class="input-field white ">
-                  <input id="search" type="search" required>
-                  <label class="label-icon deep-orange-text" for="search"><i class="material-icons deep-orange-text">search</i></label>
-                  <i class="material-icons">close</i>
+          <div class="input-field white">
+
+            <form onsubmit="dos12(this.series.value); return false;">
+                <label class="label-icon deep-orange-text" for="search"> <i class="material-icons deep-orange-text">search</i> </label>
+                  <input id="search" type="search" name="series" size="100" placeholder=" What are you binging....?"/>
+            </form>
           </div>
 
-        <!--
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light deep-orange">Get Started</a>
-        -->
+
+          <!---  Script for getting the filminfo -->
+          <script type="text/javascript">
+          function dos12(series) {
+            window.open('http://www.omdbapi.com/?t='+series+'&type=series', 'G1window');
+          }
+          </script>
+          <!---  End script -->
 
       </div>
 
