@@ -10,56 +10,102 @@
 
     $(document).ready(function(){
 
-     $('#search').focus(function(){
-       console.log('Search');
+      $('#search').focus(function(){
         var full = $("#finfo").has("img").length ? true : false;
         if(full === false){
-          console.log('Something wong hia!');
-           $('#finfo').empty();
+          $('#finfo').empty();
         }
-     });
+      });
 
-     var getFilmInfo = function(){
+      var getFilmInfo = function(){
 
-          var film = $('#search').val();
+        var film = $('#search').val();
 
-           if(film === ''){
+        if(film === ''){
 
-              $('#finfo').html("<h2 class='loading'> Please enter something.... </h2>");
+          $('#finfo').html('<h6 class="center white-text">Plese enter something...</h6>');
 
-              console.log('Here1');
+        } else {
 
-           } else {
-
-              $('#finfo').html("<h2 class='loading'>Series info loading... </h2>");
+          $('#finfo').html('<h6 class="center white-text"> Series info loading... </h6>');
 
 
-              $.getJSON("http://www.omdbapi.com/?t=" + film + "&type=series", function(json) {
-                 if (json !== "Nothing found."){
-                    console.log(json);
-                       $('#finfo').html('<h2 class="loading">Well, gee whiz! We found you a series!</h2><img id="filmInfo" src=' + json.Poster + ' />');
-                    } else {
-                       $.getJSON("http://api.themoviedb.org/2.1/Movie.search/en/json/23afca60ebf72f8d88cdcae2c4f31866/goonies?callback=?", function(json) {
-                          console.log(json);
-                          $('#finfo').html('<h2 class="loading">Were afraid nothing was found for that search. Perhaps you were looking for The Goonies?</h2><img id="thePoster" src=' + json[0].posters[0].image.url + ' />');
-                       });
-                    }
-               });
+          $.getJSON("http://api.tvmaze.com/search/shows?q=" + film, function(json) {
+              console.log(json);
+              if (json.length !== 0) {
+                 // window.location.replace("search_res.html");
+                  $('#finfo').html('<img id="filmInfo" src=' + json[0].show.image.original + ' />');
+                    getRecommended(json);
+              } else {
+                console.log('Nothing found :(');
+                $.getJSON("http://api.tvmaze.com/search/shows?q=game+of+thrones", function (json) {
+                    console.log(json[0].show.image.original);
+                    $('#finfo').html('<h5 class="center light white-text"> Found nothing. Maybe you meant...? ' +
+                        '<br></h5><img id="filmInfo" src='
+                        + json[0].show.image.original + ' />');
+                });
+              }
+          });
 
-            }
+        }
 
-          return false;
-     }
+        return false;
 
-     // $('#search').click(getFilmInfo);
-     $('#search').keyup(function(event){
-       console.log(event.keyCode);
-         if(event.keyCode === 13){
-             getFilmInfo();
-         }
-     });
+      }
 
-  });
+
+     var getRecommended = function(json) {
+
+          console.log("getRecommended");
+
+          var films = [];
+          var filmsLen = 10;
+          var cnt = 0;
+          //the array containing the recommended films
+
+          /* Criteria declarations for finding new films */
+
+          var score = json[0].show.rating.average;
+          var sgenre = json[0].show.genres[0];
+          var sid = json[0].show.id;
+
+         //console.log("Score >> " + score + " Genre >> " + sgenre + " ID >> " + sid);
+
+
+         $.getJSON("http://api.tvmaze.com/shows", function(json) {
+             console.log(json);
+             while (cnt < filmsLen) {
+                 for (var i = 0; i < 240; i++) {
+                     if ((json[i].genres[0] === sgenre) && (json[i].rating.average >= score)) {
+                         console.log(json[i].name + " " + json[i].genres[0] + " " + json[i].rating.average + "\n");
+                         films.push(json[i].image.original + "\n");
+                         cnt++;
+                     }
+                 }
+             }
+
+             console.log("Better: \n");
+             console.log(films);
+
+             for(var i = 0; i< 10; i++){
+                 console.log(films[i]);
+                 $('#results').load("search_res.html").html('<a class="carousel-item" href="#modal1"><img src=' + films[i] + ' ></a>');
+             }
+         });
+      }
+
+
+        $('#showthem').click(getFilmInfo);
+        $('#search').keyup(function(event){
+          if(event.keyCode === 13){
+            getFilmInfo();
+          }
+        });
+
+    }); //end of API-fetch
+
+
+
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space

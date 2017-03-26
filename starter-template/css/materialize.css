@@ -2880,11 +2880,10 @@ ul.staggered-list li {
 }
 
 footer.page-footer {
-  padding-top: 20px;
   background-color: #ee6e73;
+  width: 100%;
+  bottom: 0;
 }
-
-
 
 
 footer.page-footer .footer-copyright {

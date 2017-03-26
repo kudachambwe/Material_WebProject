@@ -9,18 +9,31 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <script>
+      // Called on body's `onload` event
+      function init() {
+          // Retrieving the text input's value which was stored into localStorage
+          var search = localStorage.getItem("search");
+
+          // Writing the value in the document
+          document.write("passed value = "+ search);
+
+      }
+
+  </script>
+
 </head>
 
 
-<body class="blue-grey darken-4">
+<body class="blue-grey darken-4" >
 
   <!-- Dropdown Structure -->
+
   <ul id="dropdown1" class="dropdown-content">
     <li><a href="sign_in.html">Sign in</a></li>
     <li><a href="sign_up.html">Sign up</a></li>
     <!-- <li class="divider"></li> --->
-
-
   </ul>
 
   <nav class="deep-orange lighten" role="navigation">
@@ -33,7 +46,8 @@
         <li><a href="search_res.html"><i class="material-icons">search</i></a></li>
         <li><a href="#2"><i class="material-icons">view_module</i></a></li>
         <!-- <li><a href="#3"><i class="material-icons">refresh</i></a></li> -->
-        <li><a class="dropdown-button" href="#" data-activates="dropdown1">Login or Register<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button" href="#" data-activates="dropdown1">Login or Register
+          <i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
@@ -55,6 +69,17 @@
 
       <h5 class="white-text light thin center"> Your next binge thing... </h5>
 
+
+      <section onload="init();">
+
+      </section>
+
+      <section id="results">
+
+
+      </section>
+
+
     <div class="carousel">
       <a class="carousel-item" href="#modal1"><img src="content/posters/poster1.jpg" ></a>
       <a class="carousel-item" href="#modal1"><img src="content/posters/poster2.jpg" ></a>
@@ -66,7 +91,7 @@
       <a class="carousel-item" href="#modal1"><img src="content/posters/poster8.jpg" ></a>
     </div>
 
-    <br></br>
+    <br>
 
     <div class="container center">
       <a class="brand-logo"> <img src="content/logo_btn.png" height=auto style="max-width:40px"/> </a>
@@ -85,7 +110,10 @@
 <div id="modal1" class="modal blue-grey darken-4 white-text">
   <div class="modal-content">
     <h4 class="center deep-orange-text">Fight Club</h4>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
   <div class="modal-footer blue-grey darken-4 white-text">
     <a href="#!" class="btn-floating btn-large waves-effect waves-light deep-orange"><i class="material-icons">add</i></a>
@@ -103,8 +131,8 @@
 
   <div class="footer-copyright">
     <div class="container white-text ">
-      © 2014 Copyright Text
-      <a class="orange-text text-lighten-3 right" </a>
+      © 2017 Copyright Text
+      <a class="orange-text text-lighten-3 right"> </a>
       </div>
     </div>
   </footer>
@@ -115,6 +143,11 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+
+  <script>
+      $( "#results" ).load( "index.html #finfo section" );
+  </script>
+
 
 </body>
 </html>

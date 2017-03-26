@@ -10,6 +10,7 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
+
   <!---  Script for getting the filminfo
   <script type="text/javascript">
   function dos12(series) {
@@ -17,6 +18,21 @@
   }
   </script>
   End script -->
+
+    <script>
+        // Called on form's `onsubmit`
+        function tosubmit() {
+        // Getting the value of your text input
+        var search = document.getElementById("search").value;
+        var src_btt = document.getElementById("showthem").value;
+
+        // Storing the value above into localStorage
+        localStorage.setItem("search", search);
+        localStorage.setItem("search", src_btt);
+
+        return true;
+        }
+    </script>
 
 </head>
 
@@ -56,25 +72,37 @@
     <div class="container center">
       <br><br>
 
-      <a class="brand-logo "> <img src="content/springe_white_text.png" height=auto style="max-width:450px"/> </a>
+      <a class="brand-logo "> <img src="content/springe_white_text.png" height=auto /> </a>
       <!-- <h1 class="header center white-text light"> Springe. </h1> -->
       <div class="row center">
         <h5 class="header col s12 light thin white-text">Your next binge thing! </h5>
       </div>
 
 
-
     <br><br>
 
       <div class="row center">
 
-          <div class="input-field white">
 
-            <!-- <form onsubmit="dos12(this.series.value); return false;"> -->
-                <label class="label-icon deep-orange-text" for="search"> <i class="material-icons deep-orange-text">search</i> </label>
-                  <input id="search" type="search" name="series" size="100" placeholder=" What are you binging....?"/>
+
+            <!-- <form onsubmit="tosubmit();" action="search_res.html"> -->
+
+                <div class="input-field white">
+                    <label class="label-icon deep-orange-text" for="search"> <i class="material-icons deep-orange-text">search</i> </label>
+                     <input id="search" type="search" name="series" size="100" placeholder=" What are you binging....?" />
+                </div>
+
+                <a id="showthem" class="waves-effect deep-orange waves-yellow light btn" > Search </a>
+
             <!-- </form> -->
-          </div>
+
+
+          <br><br>
+
+          <section id="finfo">
+
+          </section>
+
 
       </div>
 
@@ -94,7 +122,7 @@
             <h2 class="center deep-orange-text"><i class="material-icons">search</i></h2>
             <h5 class="center white-text">Search</h5>
 
-            <p class=" light white-text">Type in what you are currently bingeing, and we'll give you suggestions on what you should binge next.</p>
+            <p class=" light white-text">Type in what you are currently binging, and we'll give you suggestions on what you should binge next.</p>
           </div>
         </div>
 
@@ -121,24 +149,23 @@
     <br><br>
 
 
-    <section id="finfo">
-    </section>
-
   </div>
 
   <footer class="page-footer deep-orange">
 
     <div class="footer-copyright">
-      <div class="container white-text ">
-         © 2017 Copyright Text
-      <a class="black-text text-lighten-3 right" </a>
+
+      <div class="container white-text">
+         © 2017 Copyright
+      <a class="black-text text-lighten-3 right">  </a>
       </div>
+
     </div>
   </footer>
 
 
 
-  <!--  Scripts-->
+    <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
