@@ -34,7 +34,7 @@
               console.log(json);
               if (json.length !== 0) {
                  // window.location.replace("search_res.html");
-                  $('#finfo').html('<img id="filmInfo" src=' + json[0].show.image.original + ' />');
+                  $('#finfo').html('<img style="max-height: 400px" id="filmInfo" src=' + json[0].show.image.original + ' />');
                     getRecommended(json);
               } else {
                 console.log('Nothing found :(');
@@ -78,7 +78,8 @@
                  for (var i = 0; i < 240; i++) {
                      if ((json[i].genres[0] === sgenre) && (json[i].rating.average >= score)) {
                          console.log(json[i].name + " " + json[i].genres[0] + " " + json[i].rating.average + "\n");
-                         films.push(json[i].image.original + "\n");
+                         films.push(json[i]);
+                         console.log(json[i]);
                          cnt++;
                      }
                  }
@@ -87,10 +88,10 @@
              console.log("Better: \n");
              console.log(films);
 
-             for(var i = 0; i< 10; i++){
-                 console.log(films[i]);
-                 $('#results').load("search_res.html").html('<a class="carousel-item" href="#modal1"><img src=' + films[i] + ' ></a>');
-             }
+             //for(var i = 0; i< 10; i++){
+             //    console.log(films[i]);
+                 //$('#results').load("search_res.html").html('<a class="carousel-item" href="#modal1"><img src=' + films[i] + ' ></a>');
+             //}
          });
       }
 
