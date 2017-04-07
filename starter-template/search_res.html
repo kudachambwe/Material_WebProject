@@ -18,6 +18,8 @@
 
           // Writing the value in the document
           document.write("passed value = "+ search);
+          console.log("In HTML");
+          console.log(getReccomended());
       }
 
   </script>
@@ -69,13 +71,10 @@
       <h5 class="white-text light thin center"> Your next binge thing... </h5>
 
 
-      <section onload="init();">
+      <section onload="getRecommended();">
 
       </section>
 
-      <section id="results">
-
-      </section>
 
 
     <div class="carousel">
