@@ -6,7 +6,10 @@
     $('.carousel').carousel({
       padding:300
     });
-    $('#modal1').modal();
+    $('#modal1').modal({
+        dismissible: true, // Modal can be dismissed by clicking outside of the modal
+        opacity: .5// Opacity of modal background
+    });
 
     $(document).ready(function(){
 
@@ -106,9 +109,16 @@
           }
         });
 
+
     }); //end of API-fetch
 
 
+      var test_function = function () {
+
+          alert('test has been called!');
+          console.log("We are in test_function!");
+
+      }
 
 
   }); // end of document ready
