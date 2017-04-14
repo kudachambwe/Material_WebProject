@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/README.md" line="25" mnemonic="1" />
+    <bookmark url="file://$PROJECT_DIR$/README.md" line="24" mnemonic="1" />
     <bookmark url="file://$PROJECT_DIR$/index.html" line="130" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="017d516a-c894-4934-9038-94edda383d5b" name="Default" comment="">
+    <list default="true" id="017d516a-c894-4934-9038-94edda383d5b" name="Default" comment="Mostly improvements and alterations to the search-result modal view, and the logo, from a simple icon to combo of text + icon ;)">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,8 +29,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="285">
-                <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              <first_editor relative-caret-position="330">
+                <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -117,10 +118,10 @@
         <option value="$PROJECT_DIR$/search_res.html" />
         <option value="$PROJECT_DIR$/show_all.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/my_page.html" />
         <option value="$PROJECT_DIR$/sign_up.html" />
         <option value="$PROJECT_DIR$/sign_in.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -286,7 +287,7 @@
       <workItem from="1491946103758" duration="10245000" />
       <workItem from="1492194284633" duration="42000" />
       <workItem from="1492194358620" duration="154000" />
-      <workItem from="1492194528432" duration="2701000" />
+      <workItem from="1492194528432" duration="2792000" />
     </task>
     <task id="LOCAL-00001" summary="Mostly improvements and alterations to the search-result modal view, and the logo, from a simple icon to combo of text + icon ;)">
       <created>1492196866699</created>
@@ -309,11 +310,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492197587469</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Mostly improvements and alterations to the search-result modal view, and the logo, from a simple icon to combo of text + icon ;)">
+      <created>1492197596018</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1492197596018</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77841000" />
+    <option name="totallyTimeSpent" value="77932000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -599,8 +607,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <first_editor relative-caret-position="330">
+            <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />
