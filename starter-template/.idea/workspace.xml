@@ -5,20 +5,9 @@
     <bookmark url="file://$PROJECT_DIR$/index.html" line="130" mnemonic="2" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="017d516a-c894-4934-9038-94edda383d5b" name="Default" comment="Mostly improvements and alterations to the search-result modal view, and the logo, from a simple icon to combo of text + icon ;)">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ABB_test.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ABB_test/abb_test.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ABB_test/portrett.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/starter-template.iml" afterPath="$PROJECT_DIR$/.idea/Springe.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="017d516a-c894-4934-9038-94edda383d5b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/init.js" afterPath="$PROJECT_DIR$/js/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my_page.html" afterPath="$PROJECT_DIR$/my_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search_res.html" afterPath="$PROJECT_DIR$/search_res.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/show_all.html" afterPath="$PROJECT_DIR$/show_all.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sign_in.html" afterPath="$PROJECT_DIR$/sign_in.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sign_up.html" afterPath="$PROJECT_DIR$/sign_up.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,8 +51,8 @@
       <file leaf-file-name="sign_in.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sign_in.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -312,12 +301,20 @@
       <workItem from="1491946103758" duration="10245000" />
       <workItem from="1492194284633" duration="42000" />
       <workItem from="1492194358620" duration="154000" />
-      <workItem from="1492194528432" duration="2065000" />
+      <workItem from="1492194528432" duration="2147000" />
     </task>
+    <task id="LOCAL-00001" summary="Mostly improvements and alterations to the search-result modal view, and the logo, from a simple icon to combo of text + icon ;)">
+      <created>1492196866699</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1492196866699</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77205000" />
+    <option name="totallyTimeSpent" value="77287000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -334,7 +331,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19583334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -611,8 +608,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sign_in.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
