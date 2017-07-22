@@ -11,7 +11,7 @@
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
     <script>
-        // Called on body's `onload` event
+       /* // Called on body's `onload` event
         function init() {
             // Retrieving the text input's value which was stored into localStorage
             var search = localStorage.getItem("search");
@@ -21,7 +21,7 @@
             console.log("In HTML");
             console.log(search);
         }
-
+    */
     </script>
 
 </head>
@@ -37,25 +37,28 @@
     <!-- <li class="divider"></li> --->
 </ul>
 
-<nav class="deep-orange lighten" role="navigation">
+<nav class="yellow lighten" role="navigation">
 
     <div class="nav-wrapper container">
 
-        <a href="index.html" class="brand-logo"> <img src="content/logo_white.png" height=auto style="max-width:65px"/> </a>
+        <a href="index.html" class="brand-logo"> <img src="content/springe.png" height=auto style="max-width:65px"/> </a>
 
         <ul class="right hide-on-med-and-down">
-            <li><a href="search_res.html"><i class="material-icons">search</i></a></li>
-            <li><a href="#2"><i class="material-icons">view_module</i></a></li>
+            <li><a href="search_res.html"><i class="material-icons blue-grey-text">search</i></a></li>
+            <li><a href="#2"><i class="material-icons blue-grey-text">view_module</i></a></li>
             <!-- <li><a href="#3"><i class="material-icons">refresh</i></a></li> -->
-            <li><a class="dropdown-button" href="#" data-activates="dropdown1">Login or Register
-                <i class="material-icons right">arrow_drop_down</i></a></li>
+            <li>
+                <a class="dropdown-button blue-grey-text" href="#" data-activates="dropdown1">Login or Register
+                <i class="material-icons right blue-grey-text">arrow_drop_down</i></a></li>
         </ul>
 
         <ul id="nav-mobile" class="side-nav">
             <li><a href="#"> Login or Register</a></li>
-            <li><a href="#"><i class="material-icons">more_vert</i></a></li>
+            <!--
+            <li> <a href="#"><i class="material-icons">more_vert</i></a></li>
+            -->
         </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons blue-grey-text">menu</i></a>
     </div>
 </nav>
 
@@ -68,30 +71,28 @@
 <div class="section blue-grey darken-4">
     <div class="row container">
 
-        <h4 class="white-text lighten-1 light thin center"> Your next binge thing... </h4>
+        <h4 class="yellow-text lighten-1 thin light center"> Your next binge thing... </h4>
 
 
-        <section onload="init();">
-
+        <section id="finfo">
+            .....
         </section>
 
-
-
         <div class="carousel">
-            <a class="carousel-item" href="#modal1"><img src="content/posters/poster1.jpg" ></a>
-            <a class="carousel-item" href="#modal1"><img src="content/posters/poster2.jpg" ></a>
-            <a class="carousel-item" href="#modal1"><img src="content/posters/poster3.jpg" ></a>
-            <a class="carousel-item" href="#modal1"><img src="content/posters/poster4.jpg" ></a>
-            <a class="carousel-item" href="#modal1"><img src="content/posters/poster5.jpg" ></a>
-            <a class="carousel-item" href="#modal1"><img src="content/posters/poster6.jpg" ></a>
-            <a class="carousel-item" href="#modal1"><img src="content/posters/poster7.jpg" ></a>
-            <a class="carousel-item" href="#modal1"><img src="content/posters/poster8.jpg" ></a>
+            <a class="carousel-item" id ="first" href="#modal1"> </a>
+            <a class="carousel-item" id ="second" href="#modal1"> ></a>
+            <a class="carousel-item" id ="third" href="#modal1"></a>
+            <a class="carousel-item" id ="fourth" href="#modal1"></a>
+            <a class="carousel-item" id ="fifth" href="#modal1"></a>
+            <a class="carousel-item" id ="sixth" href="#modal1"></a>
+            <a class="carousel-item" id ="seventh" href="#modal1"></a>
+            <a class="carousel-item" id ="eigth" href="#modal1"></a>
         </div>
 
         <br>
 
         <div class="container center">
-            <a class="brand-logo"> <img src="content/logo_white.png" height=auto style="max-width:75px"/> </a>
+            <a class="brand-logo"> <img src="content/springe.png" height=auto style="max-width:75px"/> </a>
 
         </div>
 
@@ -105,32 +106,11 @@
 
 <!-- Modal Structure -->
 <div id="modal1" class="modal blue-grey darken-4 white-text">
-    <div class="modal-content">
-        <h4 class="center deep-orange-text">Fight Club (2005)</h4>
-        <div class="row">
-            <div class="col s6">Poster here </div>
-            <div class="col s6">
-                <div class="chip deep-orange lighten-1 white-text">
-                    Genre1
-                </div>
-                <div class="chip deep-orange lighten-1 white-text">
-                    Genre2
-                </div>
-                <div class="chip deep-orange lighten-1 white-text">
-                    Genre3
-                </div>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <div class="modal-content" id="modal1_stuff">
 
-
-            </div>
-
-        </div>
     </div>
     <div class="modal-footer blue-grey darken-4 white-text">
-        <a href="#!" class="btn-floating btn-large waves-effect waves-light deep-orange"><i class="material-icons">add</i></a>
+        <a href="#!" class="btn-floating btn-large waves-effect waves-light yellow"><i class="material-icons">add</i></a>
 
         <!--  Thumbs up or down... ?
         <a href="#!" class="btn-floating btn-large waves-effect waves-light green center"><i class="material-icons">thumb_up</i></a>
@@ -141,10 +121,10 @@
 </div>
 
 
-<footer class="page-footer deep-orange">
+<footer class="page-footer yellow">
 
     <div class="footer-copyright">
-        <div class="container white-text ">
+        <div class="container black-text ">
             © 2017 Copyright Text
             <a class="orange-text text-lighten-3 right"> </a>
         </div>

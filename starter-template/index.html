@@ -11,30 +11,6 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
 
-        <!---  Script for getting the filminfo
-          <script type="text/javascript">
-          function dos12(series) {
-            window.open('http://www.omdbapi.com/?t='+series+'&type=series', 'G1window');
-          }
-          </script>
-          End script
-        -->
-
-
-    <script>
-        // Called on form's `onsubmit`
-        function tosubmit() {
-        // Getting the value of your text input
-        var search = document.getElementById("search").value;
-        var src_btt = document.getElementById("showthem").value;
-
-        // Storing the value above into localStorage
-        localStorage.setItem("search", search);
-        localStorage.setItem("search", src_btt);
-
-        return true;
-        }
-    </script>
 
 </head>
 
@@ -48,23 +24,27 @@
     <!-- <li class="divider"></li> --->
   </ul>
 
-  <nav class="deep-orange lighten" role="navigation">
+  <nav class="yellow lighten" role="navigation">
 
     <div class="nav-wrapper container">
 
-      <a href="index.html" class="brand-logo "> <img src="content/logo_white.png" height=auto style="max-width:65px"/> </a>
+      <a href="index.html" class="brand-logo "> <img src="content/springe.png" height=auto style="max-width:65px"/> </a>
 
       <ul class="right hide-on-med-and-down">
-        <li><a href="search_res.html"><i class="material-icons">search</i></a></li>
-        <li><a href="#2"><i class="material-icons">view_module</i></a></li>
+        <li><a href="search_res.html"><i class="material-icons blue-grey-text">search</i></a></li>
+        <li><a href="#2"><i class="material-icons blue-grey-text">view_module</i></a></li>
         <!-- <li><a href="#3"><i class="material-icons">refresh</i></a></li> -->
-        <li><a class="dropdown-button" href="#" data-activates="dropdown1">Login or Register<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-button blue-grey-text" href="#" data-activates="dropdown1">Login or Register<i class="material-icons right blue-grey-text">arrow_drop_down</i></a></li>
       </ul>
-      <ul id="nav-mobile" class="side-nav">
+
+      <ul id="nav-mobile" class="side-nav ">
         <li><a href="#"> Login or Register</a></li>
+        <!--
         <li><a href="#"><i class="material-icons">more_vert</i></a></li>
+        -->
       </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons blue-grey-text">menu</i></a>
     </div>
   </nav>
 
@@ -87,20 +67,17 @@
               <!-- <form onsubmit="tosubmit();" action="search_res.html"> -->
 
                 <div class="input-field white">
-                    <label class="label-icon deep-orange-text" for="search"> <i class="material-icons deep-orange-text">search</i> </label>
+                    <label class="label-icon yellow-text" for="search"> <i class="material-icons blue-grey-text"> search</i> </label>
                      <input id="search" type="search" name="series" size="100" placeholder=" What are you currently binging?" />
                 </div>
 
-                <a id="showthem" class="waves-effect deep-orange waves-yellow light btn" > Search </a>
+                <a id="showthem" class="waves-effect yellow waves-yellow light btn blue-grey-text" > Search </a>
 
              <!--  </form> -->
 
 
           <br><br>
 
-          <section id="finfo">
-
-          </section>
 
 
       </div>
@@ -118,7 +95,7 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center deep-orange-text"><i class="material-icons">search</i></h2>
+            <h2 class="center yellow-text"><i class="material-icons">search</i></h2>
             <h5 class="center white-text">Search</h5>
 
             <p class=" light white-text">Type in what you are currently binging, and we'll give you suggestions on what you should binge next.</p>
@@ -127,7 +104,7 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center deep-orange-text"><i class="material-icons">check_circle</i></h2>
+            <h2 class="center yellow-text"><i class="material-icons">check_circle</i></h2>
             <h5 class="center white-text">Choose</h5>
 
             <p class="light white-text">Choose from the suggestions which show you want to watch next. Trust us, we know what you'll like. </p>
@@ -136,7 +113,7 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center deep-orange-text"><i class="material-icons">ondemand_video</i></h2>
+            <h2 class="center yellow-text"><i class="material-icons">ondemand_video</i></h2>
             <h5 class="center white-text">Binge</h5>
 
             <p class="light white-text">Head to your favorite streaming service (Netflix, HBO, Amazon etc.) and start binging. </p>
@@ -150,11 +127,11 @@
 
   </div>
 
-  <footer class="page-footer deep-orange">
+  <footer class="page-footer yellow">
 
     <div class="footer-copyright">
 
-      <div class="container white-text">
+      <div class="container black-text">
          © 2017 Copyright
       <a class="black-text text-lighten-3 right">  </a>
       </div>

@@ -48,51 +48,65 @@
     <div class="section">
       <br><br>
       <h5 class="white-text light"> Create your own account</h5>
+
       <div class="container white">
-      <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
-        <div class="row">
-          <form class="col s12">
-            <div class="row">
-              <div class="input-field col s6">
-                <i class="material-icons prefix deep-orange-text">account_circle</i>
-                <input id="first_name" type="text" class="validate">
-                <label for="first_name">First Name</label>
+        <div class="z-depth-1 grey lighten-4 row" style="display: inline-block; padding: 32px 48px 0px 48px; border: 1px solid #EEE;">
+
+          <div class="row">
+            <form class="col s12">
+
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix deep-orange-text">account_circle</i>
+                  <input id="first_name" type="text" class="validate">
+                  <label for="first_name">First Name</label>
+                </div>
+
+                <div class="input-field col s6">
+                  <i class="material-icons prefix deep-orange-text">account_circle</i>
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Last Name</label>
+                </div>
+
               </div>
-              <div class="input-field col s6">
-                <i class="material-icons prefix deep-orange-text">account_circle</i>
-                <input id="last_name" type="text" class="validate">
-                <label for="last_name">Last Name</label>
+
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix deep-orange-text">face</i>
+                  <input id="user" type="text" class="validate">
+                  <label for="user">Username</label>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <i class="material-icons prefix deep-orange-text">face</i>
-                <input id="user" type="text" class="validate">
-                <label for="user">Username</label>
+
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix deep-orange-text">email</i>
+                  <input id="email" type="email" class="validate">
+                  <label for="email">Email</label>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <i class="material-icons prefix deep-orange-text">email</i>
-                <input id="email" type="email" class="validate">
-                <label for="email">Email</label>
+
+
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix deep-orange-text">lock</i>
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Password</label>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <i class="material-icons prefix deep-orange-text">lock</i>
-                <input id="password" type="password" class="validate">
-                <label for="password">Password</label>
+
+
+
+
+              <div class='row'>
+                <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect deep-orange'>Submit</button>
               </div>
-            </div>
-            <div class='row'>
-              <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect deep-orange'>Submit</button>
-            </div>
-          </form>
+
+            </form>
+          </div>
+        </div>
+      <br><br>
       </div>
-    </div>
-    <br><br>
-    </div>
     </div>
 
 
@@ -110,6 +124,7 @@
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
