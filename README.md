@@ -17,9 +17,9 @@ Regardless of your current streaming service"
 
 
 ## Built with
-* Materialize - Minimalistic CSS framework based on Google's Material Design.
-* JQuery - Javascript library for interactivity on websites
-* TvMaze - An open web API with varoious data on tv-series.
+* Materialize - _Minimalistic CSS framework based on Google's Material Design._
+* JQuery - _Javascript library for interactivity on websites_
+* TvMaze - _An open web API with varoious data on tv-series._
 
 Springe is a HTML/CSS Web Application, using Javascript and JQuery, pulling JSON data from an open TV-Show API provided by TV-Maze.
 The Web Application is basically a personal project experimenting with the **Materialize** a minimalistic CSS framework.

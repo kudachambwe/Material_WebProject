@@ -1,74 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37da774e-e0ae-4ab6-b0ec-53999e83ddbd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Bold.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Light.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Medium.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Thin.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Thin.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Thin.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/springe/fonts/roboto/Roboto-Thin.woff2" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/Snapshots/hoved_side.png" afterPath="$PROJECT_DIR$/Snapshots/main_page.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/Snapshots/søkeresultater.png" afterPath="$PROJECT_DIR$/Snapshots/search_res.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/Snapshots/watchlist.png" afterPath="$PROJECT_DIR$/Snapshots/watchlist.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/image1.jpg" afterPath="$PROJECT_DIR$/content/image1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/image2.jpg" afterPath="$PROJECT_DIR$/content/image2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/logo.png" afterPath="$PROJECT_DIR$/content/logo.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/logo_btn.png" afterPath="$PROJECT_DIR$/content/logo_btn.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/logo_des.png" afterPath="$PROJECT_DIR$/content/logo_des.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/logo_des2.png" afterPath="$PROJECT_DIR$/content/logo_des2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/logo_springe.png" afterPath="$PROJECT_DIR$/content/logo_springe.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/logo_white.png" afterPath="$PROJECT_DIR$/content/logo_white.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/posters/poster1.jpg" afterPath="$PROJECT_DIR$/content/posters/poster1.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/posters/poster10.jpg" afterPath="$PROJECT_DIR$/content/posters/poster10.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/posters/poster11.jpg" afterPath="$PROJECT_DIR$/content/posters/poster11.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/posters/poster12.jpg" afterPath="$PROJECT_DIR$/content/posters/poster12.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/posters/poster13.jpg" afterPath="$PROJECT_DIR$/content/posters/poster13.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/posters/poster14.jpg" afterPath="$PROJECT_DIR$/content/posters/poster14.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/posters/poster15.jpg" afterPath="$PROJECT_DIR$/content/posters/poster15.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/posters/poster16.jpg" afterPath="$PROJECT_DIR$/content/posters/poster16.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/posters/poster2.jpg" afterPath="$PROJECT_DIR$/content/posters/poster2.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/posters/poster3.jpg" afterPath="$PROJECT_DIR$/content/posters/poster3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/posters/poster4.jpg" afterPath="$PROJECT_DIR$/content/posters/poster4.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/posters/poster5.jpg" afterPath="$PROJECT_DIR$/content/posters/poster5.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/posters/poster6.jpg" afterPath="$PROJECT_DIR$/content/posters/poster6.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/posters/poster7.jpg" afterPath="$PROJECT_DIR$/content/posters/poster7.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/posters/poster8.jpg" afterPath="$PROJECT_DIR$/content/posters/poster8.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/springe.png" afterPath="$PROJECT_DIR$/content/springe.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/springe_final.png" afterPath="$PROJECT_DIR$/content/springe_final.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/springe_white.png" afterPath="$PROJECT_DIR$/content/springe_white.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/content/springe_white_text.png" afterPath="$PROJECT_DIR$/content/springe_white_text.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/css/materialize.css" afterPath="$PROJECT_DIR$/css/materialize.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/css/materialize.min.css" afterPath="$PROJECT_DIR$/css/materialize.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/js/init.js" afterPath="$PROJECT_DIR$/js/init.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/js/materialize.js" afterPath="$PROJECT_DIR$/js/materialize.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/js/materialize.min.js" afterPath="$PROJECT_DIR$/js/materialize.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/my_page.html" afterPath="$PROJECT_DIR$/my_page.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/search_res.html" afterPath="$PROJECT_DIR$/search_res.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/show_all.html" afterPath="$PROJECT_DIR$/show_all.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/sign_in.html" afterPath="$PROJECT_DIR$/sign_in.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/springe/sign_up.html" afterPath="$PROJECT_DIR$/sign_up.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/MaterialWebsite.iml" afterPath="$PROJECT_DIR$/.idea/MaterialWebsite.iml" />
+    <list default="true" id="37da774e-e0ae-4ab6-b0ec-53999e83ddbd" name="Default" comment="Add image to readme">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sign_in.html" afterPath="$PROJECT_DIR$/login/sign_in.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/sign_up.html" afterPath="$PROJECT_DIR$/login/sign_up.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/search_res.html" afterPath="$PROJECT_DIR$/search_res.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/show_all.html" afterPath="$PROJECT_DIR$/show_all.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -87,8 +27,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="195">
-                <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+              <first_editor relative-caret-position="240">
+                <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor>
@@ -232,20 +172,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="snapshots" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -262,6 +188,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/login" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -370,7 +297,7 @@
       <workItem from="1497354838244" duration="30360000" />
       <workItem from="1507552462652" duration="439000" />
       <workItem from="1507553053477" duration="158000" />
-      <workItem from="1507553254721" duration="498000" />
+      <workItem from="1507553254721" duration="844000" />
     </task>
     <task id="LOCAL-00001" summary="Changed file structure">
       <created>1492198746272</created>
@@ -463,11 +390,25 @@
       <option name="project" value="LOCAL" />
       <updated>1507551915627</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Improve and fix code structure">
+      <created>1507553863006</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1507553863006</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Add image to readme">
+      <created>1507553983020</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1507553983020</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35288000" />
+    <option name="totallyTimeSpent" value="35634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-109" width="1920" height="1080" extended-state="0" />
@@ -528,7 +469,9 @@
     <MESSAGE value="Changed file structure" />
     <MESSAGE value="Fix file structure" />
     <MESSAGE value="Improve readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improve readme" />
+    <MESSAGE value="Improve and fix code structure" />
+    <MESSAGE value="Add image to readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add image to readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -552,8 +495,8 @@
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/js/materialize.js" />
-    <entry file="file://$PROJECT_DIR$/sign_up.html" />
-    <entry file="file://$PROJECT_DIR$/sign_in.html" />
+    <entry file="file://$PROJECT_DIR$/login/sign_up.html" />
+    <entry file="file://$PROJECT_DIR$/login/sign_in.html" />
     <entry file="file://$PROJECT_DIR$/show_all.html" />
     <entry file="file://$PROJECT_DIR$/css/materialize.css" />
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/phrase.rnc">
@@ -634,14 +577,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sign_up.html">
+    <entry file="file://$PROJECT_DIR$/login/sign_up.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1200">
           <caret line="80" column="31" lean-forward="false" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sign_in.html">
+    <entry file="file://$PROJECT_DIR$/login/sign_in.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="56" column="24" lean-forward="true" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
@@ -659,6 +602,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2075">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -674,6 +618,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -729,8 +674,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="195">
-            <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor>
