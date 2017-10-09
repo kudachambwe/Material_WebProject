@@ -18,7 +18,7 @@
 
       $('#search').focus(function(){
         var full = $("#finfo").has("img").length ? true : false;
-        if(full === false){
+        if(full === false) {
           $('#finfo').empty();
         }
       });
@@ -115,7 +115,7 @@
               var name = json[0].show.name;
 
               //console.log("Score >> " + score + " Genre >> " + sgenre + " ID >> " + sid);
-                $('#finfo').html('<div> <h6 class="center-align yellow-text">' + name + ' -- ' + sgenre + ' -- '+ score +'</h6> </div>');
+                $('#finfo').html('<div> <h6 class="center-align white-text">' + name + ' - ' + sgenre + ' - '+ score +'</h6> </div>');
 
 
 
@@ -147,17 +147,16 @@
 
                   //var year = (json[0].premiered).substring(0,4);
 
-                  $('#modal1_stuff').html('<h4 class="center yellow-text">' + films[0].name +' ('+ (films[0].premiered).substring(0,4) +')</h4> <div class="row">' +
+                  $('#modal1_stuff').html('<h4 class="center white-text">' + films[0].name +' ('+ (films[0].premiered).substring(0,4) +')</h4> <div class="row">' +
                      '<div class=" col s6"> ' +
                         '<div class="thumbnail"> <img src='+ films[0].image.original +'> </div>' +
                         '</div>' +
                         '<div class="col s6">' +
-                            '<div class=" chip  yellow lighten-1 blue-grey-text">'+films[0].rating.average +' </div>' +
-                            '<div class=" chip  yellow lighten-1 blue-grey-text">'+films[0].genres[0] +' </div>' +
+                            '<div class=" chip  white-text lighten-1 blue-grey-text">'+films[0].rating.average +' </div>' +
+                            '<div class=" chip  white-text lighten-1 blue-grey-text">'+films[0].genres[0] +' </div>' +
                             '<p>' + films[0].summary + '</p>' +
                         '</div>' +
                   '</div>');
-
 
 
 
