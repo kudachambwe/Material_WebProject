@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    height: 100%;
 }
 
 .icon-block {
@@ -36,4 +37,14 @@ body {
 .thumbnail img.portrait {
     width: 100%;
     height: auto;
+}
+
+.my-search-icon {
+    padding-left: 1rem;
+}
+
+.my-logo-img {
+    padding-top: 0.5rem;
+    height: auto;
+    max-width: 40px;
 }
