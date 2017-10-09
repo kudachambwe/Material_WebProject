@@ -3,7 +3,7 @@
 
 # Springe - Your next binge thing
 
-<img src="snapshots/main_page.png" height="400" width="750">
+<img src="content/logo_springe.png" height="200" width="400">
 
 ## Springe
 
